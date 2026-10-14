@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Polityka prywatności — Twoje Mudry</title>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #FBF6EF;
+    --text: #2B2420;
+    --text-secondary: #5A5048;
+    --accent: #A45728;
+    --border: #E3D8C8;
+    --surface: #FFFFFF;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+  }
+  header {
+    margin-bottom: 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  h1 {
+    font-size: 28px;
+    margin: 0 0 8px;
+    color: var(--accent);
+  }
+  .meta {
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 12px;
+    color: var(--text);
+  }
+  h3 {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 8px;
+  }
+  p, li {
+    font-size: 15px;
+  }
+  ul, ol {
+    padding-left: 22px;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px 20px;
+    margin: 16px 0;
+  }
+  .placeholder {
+    background: #FDEFD9;
+    border: 1px dashed #D9A84E;
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-style: italic;
+    color: #8A6300;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th {
+    color: var(--text-secondary);
+    font-weight: 600;
+  }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text-secondary);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Polityka prywatności aplikacji „Twoje Mudry”</h1>
+  <p class="meta">Ostatnia aktualizacja: 14 października 2026</p>
+</header>
+
+<section>
+  <h2>1. Administrator danych</h2>
+  <div class="card">
+    <p>
+      Administratorem danych w rozumieniu RODO jest:<br>
+      <strong>ITLOGIC DANIEL MICHAŁOWSKI</strong><br>
+      Adres: Ul. Gładka 9, 96-321 Żelechów<br>
+      NIP: 5291775167<br>
+      E-mail kontaktowy: <a href="mailto:biuro.itlogic@gmail.com">biuro.itlogic@gmail.com</a>
+    </p>
+  </div>
+  <p>We wszystkich sprawach dotyczących ochrony danych osobowych oraz tej polityki prywatności można kontaktować się pod powyższym adresem e-mail.</p>
+</section>
+
+<section>
+  <h2>2. Jakie dane aplikacja przechowuje i gdzie</h2>
+  <p>Aplikacja „Twoje Mudry” w ogromnej większości działa <strong>lokalnie, na Twoim telefonie</strong>. Poniższe dane są zapisywane wyłącznie w pamięci aplikacji na Twoim urządzeniu (technicznie: AsyncStorage) i <strong>nigdy nie są wysyłane na żaden nasz serwer</strong> — nie mamy własnego serwera ani bazy danych:</p>
+  <ul>
+    <li><strong>Dziennik praktyki</strong> — jakie mudry/sekwencje wykonałaś/eś, kiedy i jak długo;</li>
+    <li><strong>Ulubione</strong> — lista mudr i sekwencji oznaczonych jako ulubione;</li>
+    <li><strong>Passa (streak) i statystyki tygodniowe</strong> — wyliczane na podstawie dziennika, przechowywane lokalnie;</li>
+    <li><strong>Ustawienia</strong> — np. godzina codziennego przypomnienia, czy onboarding został już pokazany.</li>
+  </ul>
+  <p>Dane te znikają, jeśli odinstalujesz aplikację (chyba że zadziała kopia zapasowa opisana niżej). Nie ustalamy żadnego sztywnego okresu przechowywania tych danych — zostają na Twoim telefonie tak długo, jak długo masz zainstalowaną aplikację, i możesz je samodzielnie usunąć w każdej chwili przez odinstalowanie.</p>
+
+  <h3>Kopia zapasowa Androida (Auto Backup)</h3>
+  <p>System Android posiada wbudowany, domyślnie włączony mechanizm automatycznej kopii zapasowej aplikacji do prywatnego folderu Google Drive powiązanego z Twoim kontem Google (limit 25 MB na aplikację). Aplikacja „Twoje Mudry” go nie wyłącza, więc opisane wyżej dane (dziennik, ulubione, ustawienia) mogą zostać w ten sposób skopiowane i automatycznie przywrócone przy instalacji aplikacji na nowym telefonie zalogowanym na to samo konto Google. Tym mechanizmem w całości zarządza system Android/Google — nie mamy do niego dostępu ani kontroli nad nim. Możesz go wyłączyć w ustawieniach swojego telefonu (Ustawienia → System → Kopia zapasowa).</p>
+</section>
+
+<section>
+  <h2>3. Kamera w AI-korektorze gestów</h2>
+  <p>Funkcja AI-korektora (dostępna dla części mudr, w wersji Premium) używa przedniej kamery telefonu, żeby sprawdzić ułożenie Twojej dłoni.</p>
+  <div class="card">
+    <strong>Obraz z kamery NIE opuszcza Twojego telefonu.</strong>
+    <p style="margin-bottom:0">Każda klatka obrazu jest analizowana wyłącznie lokalnie, na urządzeniu, przez bibliotekę Google MediaPipe działającą w aplikacji. Z analizy każdej klatki powstaje jedynie zestaw współrzędnych punktów charakterystycznych dłoni (landmarks), używany na żywo do pokazania Ci podpowiedzi — sam obraz/wideo nigdy nie jest zapisywany na dysku, nie trafia do żadnej galerii i nie jest wysyłany do internetu ani do nas, ani do jakiejkolwiek firmy trzeciej.</p>
+  </div>
+</section>
+
+<section>
+  <h2>4. Powiadomienia lokalne</h2>
+  <p>Jeśli włączysz codzienne przypomnienie o praktyce, jest ono w całości planowane i wyświetlane przez system Android na Twoim telefonie. Nie wymaga to internetu ani żadnego serwera — aplikacja nie rejestruje i nie wysyła żadnego identyfikatora powiadomień push.</p>
+</section>
+
+<section>
+  <h2>5. Zakupy: Google Play i RevenueCat</h2>
+
+  <h3>Google Play — osobny administrator danych</h3>
+  <p>Sam zakup (wybór sposobu płatności, numer karty, przebieg transakcji) obsługuje w całości <strong>Google Play</strong>. W tym zakresie Google działa jako <strong>niezależny, odrębny administrator danych</strong> — nie my i nie RevenueCat decydujemy o tym, jak Google przetwarza te dane. Obowiązuje tu <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">polityka prywatności Google</a>.</p>
+
+  <h3>RevenueCat — nasz podwykonawca przetwarzania</h3>
+  <p>Do obsługi i weryfikacji zakupu Premium korzystamy z usługi <strong>RevenueCat</strong> (RevenueCat, Inc., USA), która w rozumieniu RODO działa jako nasz <strong>podmiot przetwarzający (processor)</strong> — przetwarza dane wyłącznie na nasze udokumentowane polecenie, a nie na własny użytek. Nie udostępniamy Twoich danych żadnej innej firmie poza RevenueCat i Google Play.</p>
+  <p>Pełna polityka prywatności RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">https://www.revenuecat.com/privacy</a>.</p>
+
+  <h3>Co dostaje RevenueCat</h3>
+  <table>
+    <tr><th>Dane</th><th>Szczegóły</th></tr>
+    <tr><td>Anonimowy identyfikator użytkownika</td><td>Losowy ciąg znaków generowany automatycznie przez RevenueCat — aplikacja nie przypisuje do niego Twojego imienia, maila ani żadnych innych danych kontaktowych.</td></tr>
+    <tr><td>Historia zakupu</td><td>Informacja o zakupie Premium (produkt, data, status) — niezbędna, żeby Twój zakup działał i dało się go przywrócić na nowym telefonie.</td></tr>
+    <tr><td>Dane techniczne urządzenia</td><td>Model telefonu, wersja systemu Android, wersja aplikacji.</td></tr>
+    <tr><td>Adres IP</td><td>Standardowo przesyłany przy każdym połączeniu internetowym.</td></tr>
+  </table>
+  <p>Dane są szyfrowane w transmisji. RevenueCat <strong>nie otrzymuje</strong> od naszej aplikacji: Twojego imienia i nazwiska, adresu e-mail, numeru telefonu ani numeru karty płatniczej — dane karty zna wyłącznie Google Play. Nie korzystamy z żadnych dodatkowych integracji RevenueCat (reklamowych, atrybucyjnych), więc identyfikator reklamowy Androida (Advertising ID) nie jest przez nas zbierany.</p>
+
+  <h3>Podstawa prawna przetwarzania (art. 6 RODO)</h3>
+  <p>Dane zakupowe (historia zakupu, anonimowy identyfikator) przetwarzamy na podstawie <strong>art. 6 ust. 1 lit. b) RODO</strong> — przetwarzanie jest niezbędne do wykonania umowy, której stroną jesteś (jednorazowy zakup dostępu Premium), oraz do podjęcia działań przed jej zawarciem.</p>
+
+  <h3>Okres przechowywania</h3>
+  <p>RevenueCat przechowuje dane zakupowe przez czas trwania relacji (żeby Twój zakup pozostał ważny i dało się go przywrócić na nowym telefonie) oraz do 6 lat po jej zakończeniu — w celu rozpatrywania ewentualnych reklamacji i sporów — zgodnie z publicznie dostępną polityką prywatności RevenueCat, chyba że wcześniej poprosisz o usunięcie.</p>
+
+  <h3>Przekazywanie danych do USA</h3>
+  <p>RevenueCat ma siedzibę w Stanach Zjednoczonych, więc dane (anonimowy identyfikator, historia zakupu) są tam przekazywane. Odbywa się to na podstawie <strong>Standardowych Klauzul Umownych (Standard Contractual Clauses, SCC)</strong> zatwierdzonych przez Komisję Europejską jako zabezpieczenie transferu danych z EOG do krajów spoza EOG — RevenueCat <strong>nie</strong> opiera się na mechanizmie EU-US Data Privacy Framework. Szczegóły: <a href="https://www.revenuecat.com/dpa" target="_blank" rel="noopener">Data Processing Addendum RevenueCat</a>.</p>
+</section>
+
+<section>
+  <h2>6. Analityka i raporty błędów</h2>
+  <p>Aplikacja <strong>nie zawiera</strong> żadnych bibliotek do analityki (np. Google Analytics, Firebase Analytics) ani automatycznego raportowania błędów/awarii (np. Crashlytics, Sentry). Sprawdziliśmy wszystkie użyte biblioteki (Expo i pozostałe) — żadna z nich nie wysyła danych o Twoim korzystaniu z aplikacji w tle. Jedynym elementem łączącym się z internetem jest opisana wyżej obsługa zakupów (Google Play i RevenueCat).</p>
+</section>
+
+<section>
+  <h2>7. Uprawnienia aplikacji</h2>
+  <table>
+    <tr><th>Uprawnienie</th><th>Po co</th></tr>
+    <tr><td>Kamera</td><td>Wyłącznie do AI-korektora gestów (p. 3) — obraz nie opuszcza telefonu.</td></tr>
+    <tr><td>Powiadomienia</td><td>Codzienne przypomnienie o praktyce (opcjonalne, można wyłączyć).</td></tr>
+    <tr><td>Dostęp do internetu</td><td>Wyłącznie do obsługi zakupu Premium (Google Play / RevenueCat).</td></tr>
+  </table>
+  <p>Aplikacja <strong>nie prosi</strong> o dostęp do mikrofonu (jest to w kodzie aplikacji jawnie wyłączone), lokalizacji, kontaktów, plików ani galerii zdjęć.</p>
+</section>
+
+<section>
+  <h2>8. Twoje prawa (RODO)</h2>
+  <p>W zakresie, w jakim przetwarzamy dane osobowe (patrz p. 5 — zakupy przez RevenueCat), masz prawo do:</p>
+  <ul>
+    <li>dostępu do swoich danych,</li>
+    <li>sprostowania danych,</li>
+    <li>usunięcia danych („prawo do bycia zapomnianym”),</li>
+    <li>ograniczenia przetwarzania,</li>
+    <li>przenoszenia danych,</li>
+    <li>wniesienia sprzeciwu wobec przetwarzania,</li>
+    <li>wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych (PUODO).</li>
+  </ul>
+  <p>Aby skorzystać z tych praw — w tym poprosić o usunięcie danych zapisanych przez RevenueCat — napisz na adres e-mail podany w punkcie 1, opisując zakup (np. przybliżoną datę). Dane lokalne (dziennik, ulubione, ustawienia) możesz usunąć samodzielnie w dowolnym momencie, odinstalowując aplikację.</p>
+</section>
+
+<section>
+  <h2>9. Aplikacja nie jest przeznaczona dla dzieci</h2>
+  <p>Aplikacja „Twoje Mudry” nie jest skierowana do dzieci i nie jest przeznaczona dla osób poniżej 16. roku życia. Świadomie nie zbieramy danych osobowych dzieci. Jeśli jesteś rodzicem lub opiekunem i uważasz, że Twoje dziecko przekazało nam dane osobowe, skontaktuj się z nami na adres podany w punkcie 1.</p>
+</section>
+
+<section>
+  <h2>10. Zmiany w polityce prywatności</h2>
+  <p>Jeśli zmieni się sposób przetwarzania danych przez aplikację, ta strona zostanie zaktualizowana wraz z nową datą na górze dokumentu.</p>
+</section>
+
+<footer>
+  Twoje Mudry — polityka prywatności. Dokument dotyczy aplikacji mobilnej „Twoje Mudry” (com.agnieszka15.aplikacjamudry).
+</footer>
+
+</div>
+</body>
+</html>
